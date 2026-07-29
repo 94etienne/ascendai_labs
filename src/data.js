@@ -19,18 +19,18 @@ export const AUDIENCES = [
     title: "First contact",
     blurb:
       "Weekend and holiday workshops for S4–S6 students. No prior coding. They leave having built something that runs.",
-    format: "In person, Huye — 6 weekends",
-    price: "RWF 45,000 · sponsored places available",
+    format: "In person, Huye — 4 weekends",
+    price: "RWF 50,000 · Paid places available",
     points: ["Python from zero", "What AI actually is", "A working first project"],
   },
   {
     key: "graduates",
     stage: "University students & graduates",
-    title: "Job-ready",
+    title: "Training/Internship-ready",
     blurb:
       "You have the theory. You need the practice. Full-stack and ML training built around what employers actually ask for.",
-    format: "Online, or hybrid at Huye — 12–16 weeks",
-    price: "From RWF 180,000",
+    format: "Online, or hybrid at Huye — 4–12 weeks",
+    price: "From RWF 50,000",
     points: ["Ship three real projects", "Git, review, deployment", "Direct route to our internship"],
   },
   {
@@ -39,8 +39,8 @@ export const AUDIENCES = [
     title: "Applied AI",
     blurb:
       "You already have a job. You want AI in it. Evening and weekend tracks built around the work you do now.",
-    format: "Online, evenings — 8–12 weeks",
-    price: "From RWF 320,000",
+    format: "Online, evenings — 4–12 weeks",
+    price: "From RWF 50,000",
     points: ["Bring your own problem", "Automate one real workflow", "Ship before you finish"],
   },
   {
@@ -122,7 +122,7 @@ export const PROGRAMS = [
     mode: "In person — Huye",
     level: "Beginner",
     weeks: 6,
-    price: "RWF 45,000",
+    price: "RWF 50,000",
     audience: "Secondary students",
     desc: "Weekend workshops. No prior coding. Ends with a project the student demonstrates to their school.",
   },
@@ -223,10 +223,10 @@ export const SERVICES = [
 ];
 
 export const STATS = [
-  { value: "1,240", label: "People trained" },
-  { value: "62", label: "Interns placed" },
-  { value: "31", label: "Projects delivered" },
-  { value: "2021", label: "Founded in Huye" },
+  { value: "above 100", label: "People trained" },
+  { value: "Above 62", label: "Interns placed" },
+  { value: "Above 31", label: "Projects delivered" },
+  { value: "2026", label: "Founded in Huye" },
 ];
 
 export const FAQ = [
