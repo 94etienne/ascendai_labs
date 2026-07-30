@@ -3,7 +3,7 @@
    Requires VITE_API in client/.env
    ============================================================ */
 
-const BASE = import.meta.env.VITE_API || "http://localhost:5000";
+const BASE = import.meta.env.VITE_API || "ascend-server-production.up.railway.app";
 
 /* Attach the JWT if we have one */
 function authHeaders() {
