@@ -3,7 +3,7 @@
    Requires VITE_API in client/.env
    ============================================================ */
 
-const BASE = import.meta.env.VITE_API || "http://localhost:5000";
+const BASE = import.meta.env.VITE_API || "https://ascend-server-iog9.onrender.com";
 
 /* Attach the JWT if we have one */
 function authHeaders() {
